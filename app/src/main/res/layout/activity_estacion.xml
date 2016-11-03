@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_estacion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grayLight"
+     tools:context="co.cristiangarcia.hdtransmileniopro.EstacionActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:padding="10dp"
+        android:id="@+id/estacionesViewRelative"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:textSize="20sp"
+            android:textColor="#1E429C"
+            android:id="@+id/zonaTexto"
+            />
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:id="@+id/estacionlist"
+        ></ListView>
+</LinearLayout>

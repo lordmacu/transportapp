@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="anim_duration_long">400</integer>
+    <integer name="appID">1</integer>
+    <integer name="bottom_sheet_slide_duration">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+     <integer name="gpsDistance">25</integer>
+    <integer name="gpsTimeout">60000</integer>
+    <integer name="minima">3900</integer>
+    <integer name="networkTimeout">10000</integer>
+    <integer name="peatDistance">1000</integer>
+    <integer name="peatonalMUL">1</integer>
+    <integer name="pedidoPuerta">700</integer>
+    <integer name="recargoAeropuerto">3900</integer>
+    <integer name="recargoNocturno">1900</integer>
+    <integer name="recargoTerminal">500</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="transferAlertTime">15</integer>
+    <integer name="transferTime">75</integer>
+    <integer name="unitValue">78</integer>
+</resources>

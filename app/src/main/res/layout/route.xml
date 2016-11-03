@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/lytRoute"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/scrOdMain"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:fillViewport="false"
+
+        android:gravity="top">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:id="@+id/contenedorDesde"
+
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/txtOdOri"
+                        android:layout_width="wrap_content"
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:textColor="@android:color/black" />
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/zzz_arrow_expand"
+                    />
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_below="@+id/contenedorDesde"
+                    android:layout_alignParentRight="true"
+                     android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txtOdDesti"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:fontFamily="sans-serif-light"
+                        android:textColor="@android:color/black" />
+
+
+
+                </RelativeLayout>
+
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/layOdContent"
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/layOdDinContent11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                     android:background="@color/backgroundCard"
+                    android:orientation="vertical">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="16dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/txtServiciosDirectos"
+                            android:layout_width="fill_parent"
+                            android:gravity="left"
+                            android:layout_height="wrap_content"
+                             android:layout_marginLeft="@dimen/defaultPadding"
+                            android:layout_marginTop="@dimen/defaultMiddlePadding"
+                            android:text="Servicios Directos"
+                            android:fontFamily="sans-serif-light"
+                            android:textColor="?colorPrimary"
+                            android:textSize="25sp"
+                            android:layout_alignParentLeft="true"
+                            />
+
+                        <ImageView
+                            android:id="@+id/imgCalendar"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+
+                            android:layout_marginRight="16dp"
+                             android:onClick="cambiarHora"
+                            android:layout_marginTop="16dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/zzz_calendar" />
+
+                        <TextView
+                            android:id="@+id/txtNotFoundServices"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+
+                            android:layout_below="@+id/txtServiciosDirectos"
+                            android:layout_marginLeft="@dimen/defaultPadding"
+                            android:layout_marginTop="@dimen/defaultMiddlePadding"
+                            android:text="No se encontraron servicios directos"
+                            android:textColor="@color/not_found"
+                            android:layout_alignParentLeft="true"
+                            android:textSize="20sp"
+                            android:fontFamily="sans-serif-light"
+
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/layOdDinContent1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lytImg2"
+                        android:orientation="vertical" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layOdDinContent22"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layOdDinContent11"
+                    android:background="@color/backgroundCard"
+                    android:layout_marginTop="16dp"
+                    android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:id="@+id/txtOthers"
+                        android:layout_width="fill_parent"
+                        android:gravity="left"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/defaultPadding"
+                        android:layout_marginTop="@dimen/defaultMiddlePadding"
+                        android:text="Otras Alternativas: "
+                        android:fontFamily="sans-serif-light"
+                        android:textColor="?colorPrimary"
+                        android:textSize="25sp"
+                        android:layout_alignParentLeft="true"
+                        />
+                    <TextView
+                        android:id="@+id/txtNotFoundAdicionalServices"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtServiciosDirectos"
+                        android:layout_marginLeft="@dimen/defaultPadding"
+                        android:layout_marginTop="@dimen/defaultMiddlePadding"
+                        android:text="No se encontraron alternativas adicionales"
+                        android:textColor="@color/not_found"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif-light"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/layOdDinContent2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/layOdDinContent1"
+                        android:orientation="vertical" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

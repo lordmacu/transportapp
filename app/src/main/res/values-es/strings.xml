@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Transmilenio Plus</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="calculate_route">Calcular Ruta</string>
+    <string name="destination_station">Destino Origen</string>
+    <string name="destination_troncal">Troncal Destino</string>
+    <string name="from">Desde</string>
+    <string name="in_operation">En Operación</string>
+    <string name="no_service">No hay servicio</string>
+    <string name="origin_station">Estación Origen</string>
+    <string name="origin_troncal">Troncal Origen</string>
+    <string name="route_calculation">Calcular de Ruta</string>
+    <string name="select_from">Seleccionar Estación Origen</string>
+    <string name="select_route_text">Seleccione estacion a donde quiere viajar</string>
+    <string name="select_station">Seleccionar una Estacion</string>
+    <string name="select_to">Seleccionar Estación Destino</string>
+    <string name="stations">Estaciones</string>
+    <string name="to">Hasta</string>
+    <string name="transmilenio_plus">Transmilenio Plus</string>
+    <string name="troncales">Troncal</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="web_page_news">http://pruebawebserbicespx</string>
+    <string name="web_services">http://pruebawebserbicespx</string>
+    <string name="web_services_namespace">http://pruebawebserbicespx</string>
+</resources>

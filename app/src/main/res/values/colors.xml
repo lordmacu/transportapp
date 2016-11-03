@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C0000D</color>
+    <color name="colorPrimaryDark">#98030d</color>
+    <color name="colorAccent">#da0513</color>
+    <color name="grayLight">#F4F4F4</color>
+    <color name="btn_close">#ff009bb7</color>
+    <color name="not_found">#ffb20000</color>
+    <color name="backgroundSplash">#ffb20000</color>
+    <color name="backgroundFloorSplash">#ff0a816b</color>
+    <color name="backgroundCard">#F7F7F7</color>
+    <color name="successColor">#2ecc71</color>
+</resources>
